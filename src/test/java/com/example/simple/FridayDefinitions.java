@@ -1,12 +1,13 @@
-package com.example;
+package com.example.simple;
 
+import com.example.IsItFriday;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Stepdefs {
+public class FridayDefinitions {
     private String today;
     private String actualAnswer;
 
