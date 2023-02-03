@@ -13,7 +13,9 @@ dependencies {
     testImplementation("io.cucumber:cucumber-junit:${cucumberVersion}")
     testImplementation("io.cucumber:cucumber-junit-platform-engine:${cucumberVersion}")
 //    testImplementation("io.cucumber:cucumber-spring:${cucumberVersion}")
+    // junit-platform-suite
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
+    testImplementation("org.junit.platform:junit-platform-suite:1.9.2")
     implementation("com.google.guava:guava:31.1-jre")
 }
 
